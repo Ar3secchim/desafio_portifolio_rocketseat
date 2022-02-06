@@ -19,6 +19,7 @@
 body{
   background-color: #22212C;
   display: flex;
+  justify-content: center;
 }
 
 aside{
@@ -33,11 +34,23 @@ main{
   flex: 0 0 950px;
 }
 /*================classes globais ========================*/
+.size_12_ligth{
+  font-family: 'Merriweather Sans';
+  font-weight: 400;
+  font-size: 12px;
+}
 .size_14_ligth{
   font-family: 'Merriweather Sans';
   font-weight: 400;
   font-size: 14px;
 }
+
+.size_16_ligth{
+  font-family: 'Merriweather Sans';
+  font-weight: 400;
+  font-size: 16px;
+}
+
 .size_23_bold{
   font-family: 'Merriweather Sans';
   font-weight: 700;
@@ -145,4 +158,145 @@ a:visited {
 }
 
 /*================CONTAINER EXPERIÊNCIA ========================*/
+.experience{
+  display: flex;
+  width: 370px;
+  height: 349px;
+  margin: 30px 60px 0px 40px;
+  border-radius: 1rem;
+  background-color: var(--bg-cards);
+}
+.experience .size_20_bold{
+  margin: 20px;
+}
 
+.experience li{
+  list-style: disc;
+  margin:5px 0px 20px 50px;
+}
+
+/*================CONTAINER EDUCAÇÃO ========================*/
+.education{
+  display: flex;
+  width: 370px;
+  height: 352px;
+  margin: 30px 60px 0px 40px;
+  border-radius: 1rem;
+  background-color: var(--bg-cards);
+}
+.education .size_20_bold{
+  margin: 20px;
+}
+.education li{
+  list-style: disc;
+  margin:5px 0px 20px 50px;
+}
+
+/*===============MAIN PROJECT ========================*/
+.title_project{
+  display: flex;
+  width: 952px;
+  height: 86px;
+  margin: 40px 20px 0px 0px;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 1.5rem;
+  background-color: var(--bg-cards);
+}
+
+.title_project p{
+  color: #837E9F;
+  margin: 1rem;
+}
+/*===============CONTAINER PROJECT========================*/
+.projects{
+  display:flex;
+}
+.container_project{
+  display: flex;
+  flex-direction: column;
+  width: 461px;
+  height: 186px;
+  justify-content: space-between;
+  margin: 20px 20px 0px 0px;
+  padding: 20px 20px 10px 20px;
+  border-radius: 1.5rem;
+
+  background-color: var(--bg-cards);
+}
+.project_title{
+  display: flex;
+  gap: 15px;
+  color: #837E9F;
+}
+.project_content{
+  color: #837E9F;
+}
+
+.project_classification{
+  width: 400px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #837E9F;
+}
+.project_classification span{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.project_classification p{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+/*===============CONTAINER POST========================*/
+.title_post{
+  display: flex;
+  width: 952px;
+  height: 86px;
+
+  padding: 1rem;
+  margin: 30px 20px 0px 0px;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 1.5rem;
+  background-color: var(--bg-cards);
+  color: #837E9F;
+}
+
+.container_post{
+  display: flex;
+  height: 201px;
+  width: 952px;
+
+  margin: 30px 20px 0px 0px;
+  border-radius: 1.5rem;
+  background-color: var(--bg-cards);
+  color: #837E9F;
+  
+}
+
+.container_post img{
+  width: 130px;
+  margin: 30px 20px 40px 30px ;
+}
+
+.post_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.content_post{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.content_post ul{
+  display: flex;
+  justify-content: space-between;
+}
